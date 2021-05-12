@@ -6,9 +6,16 @@
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.6.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.8",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.6.0",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "validation": "0.0.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -34,5 +41,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Fullstack MERN website for musicians to find other musicians",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jarred-Caris/band_van.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jarred-Caris/band_van/issues"
+  },
+  "homepage": "https://github.com/Jarred-Caris/band_van#readme"
 }
