@@ -1,9 +1,19 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css"
+import Login from "./components/Login"
+import "./App.css";
+// import { Router } from "react-router";
+
 
 function App() {
   return (
     <div>
-      <h3>React Express Boilerplate</h3>
+      {/* <Router> */}
+      <Login />
+      <h3>Bandvan project</h3>
+
+      {/* </Router> */}
+     
     </div>
   );
 }

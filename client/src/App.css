@@ -1,0 +1,14 @@
+/**************Navbar****************/
+
+.logo {
+    width: 350px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: aliceblue;
+}
+
+.login {
+    border-style: solid;
+    border-color:black;
+}
+
