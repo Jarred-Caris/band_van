@@ -10,5 +10,39 @@
 .login {
     border-style: solid;
     border-color:black;
+    
 }
+
+.container-fluid {
+    background-image: linear-gradient(to top, #070707, rgb(23, 95, 228)) !important;
+   
+}
+.navbar{
+    background-color: rgb(12, 36, 56) !important;
+}
+
+.nav-link {
+
+    color: aliceblue !important;
+    
+}
+
+html {
+    position: relative;
+    background: url(./assets/band.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+  .main-info {
+    display: flex;
+    flex-direction:column;
+    color: aliceblue;
+    
+   background-color: black;
+   font-size: xx-large;
+    
+    
+  }
 

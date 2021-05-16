@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "../assets/logo.PNG";
+
+// import Dropdowns from "react-bootstrap/Dropdowns"
 // import { Link } from "react-router-dom";
 
 const Login = () => {
@@ -25,18 +27,14 @@ const Login = () => {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Search
+                  My Profile
                 </a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
+   
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css"
 import Login from "./components/Login"
+import Main from "./components/Main"
 import "./App.css";
 // import { Router } from "react-router";
 
@@ -10,7 +11,7 @@ function App() {
     <div>
       {/* <Router> */}
       <Login />
-      <h3>Bandvan project</h3>
+      <Main />
 
       {/* </Router> */}
      

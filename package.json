@@ -21,6 +21,7 @@
     "axios": "^0.21.1",
     "bootstrap": "^5.0.1",
     "express": "^4.16.3",
-    "if-env": "^1.0.4"
+    "if-env": "^1.0.4",
+    "react-typed": "^1.2.0"
   }
 }
