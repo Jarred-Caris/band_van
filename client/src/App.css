@@ -24,6 +24,7 @@
 .nav-link {
 
     color: aliceblue !important;
+    font-size: large;
     
 }
 
@@ -60,3 +61,4 @@
       background-color: black;
       color: aliceblue;
   }
+
