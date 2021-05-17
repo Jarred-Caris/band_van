@@ -1,8 +1,13 @@
 import React from "react";
 import logo from "../assets/logo.PNG";
+import { useAuth0 } from "@auth0/auth0-react";
 
 // import Dropdowns from "react-bootstrap/Dropdowns"
 // import { Link } from "react-router-dom";
+
+const LoginButton = () => {
+  const { loginWithRedirect } = useAuth0;
+};
 
 const Login = () => {
   return (
@@ -32,9 +37,51 @@ const Login = () => {
               </li>
             </ul>
           </div>
+
+
+          <div className="login-input">
+          <div className="row">
+            <div className="col">
+              
+              <div className="input-group input-group-sm mb-3">
+                <span className="input-group-text" id="inputGroup-sizing-sm">
+                  Email
+                </span>
+                <input
+                  type="text"
+                  className="form-control"
+                  aria-label="Sizing example input"
+                  aria-describedby="inputGroup-sizing-sm"
+                />
+              </div>
+            </div>
+            <div className="col-md-auto">
+              <div className="input-group input-group-sm mb-3">
+                <span className="input-group-text" id="inputGroup-sizing-sm">
+                  Password
+                </span>
+                <input
+                  type="text"
+                  className="form-control"
+                  aria-label="Sizing example input"
+                  aria-describedby="inputGroup-sizing-sm"
+                />
+              </div>
+            </div>
+            <div className="col col-lg-2">
+              <button
+                type="button"
+                class="btn btn-dark"
+                onClick={() => loginWithRedirect()}
+              >
+                Login
+              </button>
+            </div>
+          </div>
+          </div>
+         
         </div>
       </nav>
-   
     </div>
   );
 };

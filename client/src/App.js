@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css"
 import Login from "./components/Login"
 import Main from "./components/Main"
@@ -8,14 +9,15 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
-      {/* <Router> */}
+    <>
+      <Router>
+      
       <Login />
       <Main />
 
-      {/* </Router> */}
+      </Router>
      
-    </div>
+    </>
   );
 }
 
