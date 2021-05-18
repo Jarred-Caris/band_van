@@ -16,12 +16,12 @@ const Main = (props) => {
                 >
 
                 </Typed>
-                {props.children}
+                
             
             </div>
             
         </div>
-        <div className="background"></div>
+        <div className="background">{props.children}</div>
         </div>
     )
 }

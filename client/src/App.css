@@ -54,11 +54,11 @@
 
   .input-group-text {
       background-color: black !important;
-      color: aliceblue;
+      color: rgb(3, 8, 12);
   }
 
-  input.form-control {
-      background-color: black;
-      color: aliceblue;
-  }
 
+
+.profile {
+    color: aliceblue !important;
+}
