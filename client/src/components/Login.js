@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 // import { Link } from "react-router-dom";
 
 const Login = () => {
-  const { loginWithRedirect, isAuthenticated } = useAuth0();
-  const { logout } = useAuth0();
+  const { loginWithRedirect, logout, isAuthenticated } = useAuth0();
+  
 
   return (
     <div className="login">
